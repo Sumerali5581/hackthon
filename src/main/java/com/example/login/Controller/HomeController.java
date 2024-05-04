@@ -44,7 +44,7 @@ public class HomeController {
     @RequestMapping("/officer")
     public String landingPage3(Model model)
     {
-        return "officer";
+        return "Gov_admin";
     }
 
 
@@ -121,7 +121,7 @@ public class HomeController {
             else if (role != null && role.equals("officer")) {
 
 
-                return "officer";
+                return "redirect:http://localhost:9090/officer";
             }
             //If user is patient
             else {
