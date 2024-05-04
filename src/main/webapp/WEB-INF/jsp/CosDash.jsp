@@ -15,7 +15,7 @@
     background-color: antiquewhite;
     box-sizing: border-box;
     padding: 2rem;
-    background-image: url("hello.png");
+    background-image: url("https://images.app.goo.gl/f4QQ6Ub5TKBnDC4x6");
     background-repeat: no-repeat;
     background-size: cover;
 }
