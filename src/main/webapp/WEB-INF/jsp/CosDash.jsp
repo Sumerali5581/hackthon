@@ -4,24 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
         *{
     padding: 0px;
     margin: 0px;
 }
-.Window{
+.navbar{
+    padding: 1.2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+        a:hover{
+            scale: 1.1;
+            transition: all .2s ease-in-out;
+        }
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: grid;
+    gap: 3rem;
     width: 100%;
     height: auto;
     background-color: antiquewhite;
     box-sizing: border-box;
     padding: 2rem;
-    background-image: url("https://images.app.goo.gl/f4QQ6Ub5TKBnDC4x6");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.container{
-    display: grid;
-    gap: 3rem;
 }
 .col-1{
     grid-column: 1;
@@ -106,9 +123,19 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
-    </style>
+</style>
 </head>
-<body class="Window">
+<body >
+    <nav class="navbar ">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="collapse" >
+          <div class="navbar-nav">
+            <a class="nav-item " href="#">Home </a>
+            <a class="nav-item" href="#">Logout</a>
+            <a class="nav-item" href="#">Profile</a>
+          </div>
+        </div>
+      </nav>
     <div class="container">
         <div class="col-1">
             <div class="card-1">
@@ -189,5 +216,6 @@ input[type="submit"]:hover {
             </div>
         </div>
     </div>
+
 </body>
 </html>
