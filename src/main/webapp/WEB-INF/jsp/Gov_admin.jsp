@@ -135,21 +135,21 @@
         <img class="image" src="https://img.freepik.com/premium-photo/hand-holding-house-real-estate-property-model_939253-710.jpg"/>
         <div class="panel">
             <img src="https://cdn-icons-png.flaticon.com/512/9850/9850812.png" alt="Database Icon" class="icon">
-            <h2>View Database of Registrations</h2>
+            <h2>View Reports</h2>
             <p>Access the database of land registrations to view details of registered properties and owners. Search, filter, and export data for analysis and reporting purposes.</p>
             <a href="view_registrations.html">View</a>
         </div>
         <div class="panel">
             <img src="https://cdn3.vectorstock.com/i/1000x1000/37/82/transfer-user-logo-icon-design-vector-22953782.jpg" alt="Transfer Icon" class="icon">
-            <h2>Owner Transfer Panel</h2>
+            <h2>LandOwner Transfer Panel</h2>
             <p>Transfer land ownership to another individual or entity. This action requires verification and approval. The process involves submitting a transfer request with necessary documentation and payment of applicable fees. Upon approval, the ownership records are updated to reflect the new owner.</p>
             <a href="owner_transfer.html">Transfer</a>
         </div>
         <div class="panel">
             <img src="https://cdn-icons-png.flaticon.com/512/3474/3474543.png" alt="Land Registration Icon" class="icon">
-            <h2>Land Registration Panel</h2>
-            <p>Register new land ownership. This process involves submitting ownership details, property boundaries, and other necessary documents for verification and approval. Upon approval, the new land registration is added to the database.</p>
-            <a href="land_registration.html">Register</a>
+            <h2>view And Verify Land Registration</h2>
+            <p>This includes checking the accuracy of the information provided, verifying the ownership of the land, and ensuring that all necessary documentation is in order. The panel provides access to the database of land registrations, allowing officers to search, filter, and view detailed information about registered properties and owners.</p>
+            <a href="land_registration.html">Verify</a>
         </div>
     </div>
 </body>
