@@ -10,12 +10,20 @@
     padding: 0px;
     margin: 0px;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFCC; /* Shades of yellow */
+    color: #333333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
 .navbar{
     padding: 1.2rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    background-color: #FFD700;
 }
         a:hover{
             scale: 1.1;
@@ -36,7 +44,6 @@ a{
     gap: 3rem;
     width: 100%;
     height: auto;
-    background-color: antiquewhite;
     box-sizing: border-box;
     padding: 2rem;
 }
@@ -47,6 +54,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .col-2{
@@ -59,9 +67,10 @@ a{
     padding: 20px;
     border-radius: 5px;
     box-shadow: 10px 10px 5px 0px rgba(125,118,125,1);
+    
 }
 .card-1{
-    width: 50%;
+    width: 70%;
     height: 10rem;
     display: flex;
     flex-direction: column;
@@ -145,8 +154,9 @@ input[type="submit"]:hover {
                 <h4>Land Registeration</h2>
             </div>
             <div class="card-1">
-                <h1>Guidlines</h1>
-
+                <h1>Fraud Report</h1>
+                <p>Tell us if incounterd any fraud</p>
+                <a href="#">Report</a>
             </div>
             <div class="card-1">
                 <h1>Land Owned</h1>
