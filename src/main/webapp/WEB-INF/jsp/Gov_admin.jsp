@@ -10,16 +10,55 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-           background-color: #0f0d0d;
+            background-color: #0f0d0d;
         }
         body h1{
             margin: auto 10px;
             text-align: center;
             margin-top: 30px;
             color:#fff
-            
-            
         }
+        .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffb0797;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    background-color: #000;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    border-radius: 40px;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-right a {
+    margin-left: 10px;
+}
+
+.navbar-right a:first-child {
+    margin-left: auto; /* Pushes the first item to the right */
+}
+
 
         .container {
             display: flex;
@@ -31,7 +70,7 @@
         .panel {
             width: 300px;
             padding: 20px;
-            background-color: #fffb0797; /* Dark yellow background */
+            background-color: #fffb0797;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             margin: 20px;
@@ -74,24 +113,23 @@
             margin-bottom: 10px;
         }
         .image {
-    width: 600px;
-    height: 600px;
-    border-radius: 50%;
-    margin-right: 20px; /* Add some spacing between the image and the panels */
-}
-.panel {
-    /* Existing styles */
-    transition: transform 0.3s, box-shadow 0.3s; /* Added box-shadow transition for smoother effect */
-}
-
-.panel:hover {
-    transform: translateY(-5px) scale(1.05); /* Scale up by 5% on hover */
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Add a subtle shadow */
-}
-
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
     </style>
 </head>
 <body>
+    <div class="navbar">
+        <img src="https://w1.pngwing.com/pngs/484/657/png-transparent-real-estate-conservador-de-bienes-raices-de-santiago-property-goods-asi-land-registration-propiedad-horizontal-bene-mobile.png" alt="Logo" class="logo">
+        <div class="navbar-right">
+            <a href="#">View Profile</a>
+            <a href="#">Logout</a>
+            <a href="#">Home</a>
+        </div>
+    </div>
+    
     <h1>Government Dashboard</h1>
     <div class="container">
         <img class="image" src="https://img.freepik.com/premium-photo/hand-holding-house-real-estate-property-model_939253-710.jpg"/>
@@ -106,6 +144,12 @@
             <h2>Owner Transfer Panel</h2>
             <p>Transfer land ownership to another individual or entity. This action requires verification and approval. The process involves submitting a transfer request with necessary documentation and payment of applicable fees. Upon approval, the ownership records are updated to reflect the new owner.</p>
             <a href="owner_transfer.html">Transfer</a>
+        </div>
+        <div class="panel">
+            <img src="https://cdn-icons-png.flaticon.com/512/3474/3474543.png" alt="Land Registration Icon" class="icon">
+            <h2>Land Registration Panel</h2>
+            <p>Register new land ownership. This process involves submitting ownership details, property boundaries, and other necessary documents for verification and approval. Upon approval, the new land registration is added to the database.</p>
+            <a href="land_registration.html">Register</a>
         </div>
     </div>
 </body>
