@@ -10,10 +10,14 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-           
+           background-color: #0f0d0d;
         }
         body h1{
-            margin:auto;
+            margin: auto 10px;
+            text-align: center;
+            margin-top: 30px;
+            color:#fff
+            
             
         }
 
@@ -27,7 +31,7 @@
         .panel {
             width: 300px;
             padding: 20px;
-            background-color: #fffb07df; /* Dark yellow background */
+            background-color: #fffb0797; /* Dark yellow background */
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             margin: 20px;
@@ -69,11 +73,28 @@
             height: 50px;
             margin-bottom: 10px;
         }
+        .image {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin-right: 20px; /* Add some spacing between the image and the panels */
+}
+.panel {
+    /* Existing styles */
+    transition: transform 0.3s, box-shadow 0.3s; /* Added box-shadow transition for smoother effect */
+}
+
+.panel:hover {
+    transform: translateY(-5px) scale(1.05); /* Scale up by 5% on hover */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Add a subtle shadow */
+}
+
     </style>
 </head>
 <body>
-    <h1 text-align="center">Government Dashboard</h1>
+    <h1>Government Dashboard</h1>
     <div class="container">
+        <img class="image" src="https://img.freepik.com/premium-photo/hand-holding-house-real-estate-property-model_939253-710.jpg"/>
         <div class="panel">
             <img src="https://cdn-icons-png.flaticon.com/512/9850/9850812.png" alt="Database Icon" class="icon">
             <h2>View Database of Registrations</h2>
