@@ -1,4 +1,13 @@
-body {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land Ownership Transfer</title>
+    
+</head>
+<style>
+    body {
     background-color: #ffff99; /* Blue */
     color: black; /* Dark Gray */
     font-family: Arial, sans-serif;
@@ -140,3 +149,67 @@ header h1 {
     display: block;
     margin: 0 auto;
 }
+
+</style>
+<body>
+    <div class="navbar">
+        <img src="https://w1.pngwing.com/pngs/484/657/png-transparent-real-estate-conservador-de-bienes-raices-de-santiago-property-goods-asi-land-registration-propiedad-horizontal-bene-mobile.png" alt="Logo" class="logo">
+        <div class="navbar-right">
+            <a href="#">View Profile</a>
+            <a href="#">Logout</a>
+            <a href="#">Home</a>
+        </div>
+    </div>
+
+    <section class="land-records">
+        <h2>Land Ownership Records</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Land ID</th>
+                    <th>Land Owner</th>
+                    <th>Land Survey Number</th>
+                    <th>Land Area</th>
+                    <th>Land Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>1234AB</td>
+                    <td>500 sq. meters</td>
+                    <td>123 Main Street</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>5678CD</td>
+                    <td>750 sq. meters</td>
+                    <td>456 Oak Avenue</td>
+                </tr>
+                <!-- Add more records as needed -->
+            </tbody>
+        </table>
+    </section>
+
+    <section class="transfer-form">
+        <h2>Transfer Land Ownership</h2>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="landID">Land ID:</label>
+                <input type="text" id="landID" name="landID" required>
+            </div>
+            <div class="input-group">
+                <label for="landOwner">Land Owner:</label>
+                <input type="text" id="landOwner" name="landOwner" required>
+            </div>
+            <div class="input-group">
+                <label for="transferID">Transfer ID:</label>
+                <input type="text" id="transferID" name="transferID" required>
+            </div>
+            <button type="submit">Transfer Ownership</button>
+        </form>
+    </section>
+</body>
+</html>
