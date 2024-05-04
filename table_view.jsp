@@ -42,15 +42,13 @@
 .navbar-right {
     display: flex;
     flex-direction: row;
+    margin-left: auto; /* Pushes the navbar-right items to the right */
 }
 
 .navbar-right a {
     margin-left: 10px;
 }
 
-.navbar-right a:first-child {
-    margin-left: auto; /* Pushes the first item to the right */
-}
     table {
         width: 100%;
         border-collapse: collapse;
