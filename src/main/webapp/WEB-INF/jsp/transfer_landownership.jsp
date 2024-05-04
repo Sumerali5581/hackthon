@@ -82,9 +82,57 @@ button {
     display: block;
     margin: 0 auto;
 }
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD700;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    background-color: #000;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    border-radius: 40px;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-right a {
+    margin-left: 10px;
+}
+
+.navbar-right a:first-child {
+    margin-left: auto; /* Pushes the first item to the right */
+}
 
 </style>
 <body>
+    <div class="navbar">
+        <img src="https://w1.pngwing.com/pngs/484/657/png-transparent-real-estate-conservador-de-bienes-raices-de-santiago-property-goods-asi-land-registration-propiedad-horizontal-bene-mobile.png" alt="Logo" class="logo">
+        <div class="navbar-right">
+            <a href="#">View Profile</a>
+            <a href="#">Logout</a>
+            <a href="#">Home</a>
+        </div>
+    </div>
     <header>
         <h1>Land Ownership Transfer</h1>
     </header>
