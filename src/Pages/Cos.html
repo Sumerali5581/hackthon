@@ -11,18 +11,79 @@
         <div class="col-1">
             <div class="card-1">
                 <h1>User</h1>
+                <h4>Name: Arnav Lahane</h2>
+                <h4>Contact: 9022XXXXXX</h2>
+                <h4>Land Registeration</h2>
             </div>
             <div class="card-1">
-                <h1>Search</h1>
+                <h1>Guidlines</h1>
+
             </div>
             <div class="card-1">
                 <h1>Land Owned</h1>
             </div>
-            <div class="card-1"></div>
         </div>
         <div class="col-2">
             <div class="card-2">
-                <h1>Register Land</h1>
+                <h2>Land Registration Form</h2>
+                <form action="#" method="post">
+                    <div class="formgrid">
+                        <div class="g-1">
+                            <label for="registration_office">Registration Office:</label>
+                            <input type="text" id="registration_office" name="registration_office" required>
+        
+                            <label for="district">District:</label>
+                            <input type="text" id="district" name="district" required>
+                        </div>
+                        <div class="g-2">
+                            <label for="state">State:</label>
+                            <input type="text" id="state" name="state" required>
+        
+                            <label for="name">Name of Applicant:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                    </div>
+                    
+                    <label for="postal_address">Postal Address of Applicant (with Pin Code):</label>
+                    <input type="text" id="postal_address" name="postal_address" required>
+
+                    <label for="property_type">Type of Property:</label>
+                    <select id="property_type" name="property_type" required>
+                        <option value="">Select Property Type</option>
+                        <option value="land_with_structures">Land with Structures</option>
+                        <option value="vacant_land">Vacant Land</option>
+                        <option value="flat_apartment">Flat/Apartment</option>
+                        <option value="commercial_complex">Commercial Complex</option>
+                    </select>
+
+                    <label for="detail_particulars">Detail Particulars of the Land:</label>
+                    <div class="formgrid">
+                        <div class="g-1">
+                            <label for="state">State:</label>
+                            <input type="text" id="state" name="state" required>
+                            <label for="district">District:</label>
+                            <input type="text" id="district" name="district" required>
+                            <label for="name_of_municipality_gram_panchayat">Name of municipality/gram panchayat:</label>
+                            <input type="text" id="name_of_municipality_gram_panchayat" name="name_of_municipality_gram_panchayat" required>
+        
+                        </div>
+                        <div class="g-2">
+                            <label for="subdivision">Subdivision:</label>
+                            <input type="text" id="subdivision" name="subdivision" required>
+        
+                            <label for="road_name">Road name:</label>
+                            <input type="text" id="road_name" name="road_name" required>
+
+                            <label for="land_value"> Market value of land in Rs:</label>
+                            <input type="text" id="land_value" name="land_value" required>
+                        </div>
+                    </div>
+                    
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    <br />
+                    <input style="margin-top:1.5rem ;" type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </div>
