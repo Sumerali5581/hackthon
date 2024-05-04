@@ -145,8 +145,9 @@ input[type="submit"]:hover {
                 <h4>Land Registeration</h2>
             </div>
             <div class="card-1">
-                <h1>Guidlines</h1>
-
+                <h1>Fraud Report</h1>
+                <p>Tell us if incounterd any fraud</p>
+                <a href="#">Report</a>
             </div>
             <div class="card-1">
                 <h1>Land Owned</h1>
